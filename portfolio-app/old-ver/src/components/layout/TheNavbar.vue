@@ -46,21 +46,17 @@
     }
 </script>
 <style scoped>
-  .el-container{
-    margin:0;
-  }
   div{
     display: flex;
     gap:1em;
     justify-content: center;
   }
   .el-menu-item{
-    font-size: 1.3em;
+    font-size: 1.5em;
   }
   .el-row,.el-menu,.el-container{
     /* background: #ddffbc; */
     background: #f7f7f7;
-    margin: 0;
   }
   .el-row{
     margin:0;

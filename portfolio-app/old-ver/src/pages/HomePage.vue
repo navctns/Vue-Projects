@@ -13,7 +13,7 @@
                     </el-avatar>
                   </div>
                   <h3>Naveen V</h3>
-                  <h4>(Frontend Developer)</h4>
+                  <h4>Frontend Developer</h4>
                 </el-card>
                 <el-card class="inner-card">
                   <div class="skills-header">
@@ -103,7 +103,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 70vh;
+    min-height: 80vh;
     /* height: 80vh; */
   }
 
@@ -114,8 +114,7 @@
     border-radius: 1em;
     /* background: #f4f4f2; */
     background: #F9F9F9;
-    margin:0;
-    padding:0;
+    margin: 0.5em 0;
 
   }
   a{
@@ -177,8 +176,7 @@
     margin:0;
   }
   h3{
-    margin: 0.2em 0;
-    text-align: center;
+    margin: 0.5em 0;
   }
   .skills-header{
     display: flex;
@@ -192,7 +190,6 @@
     display: fltags-containerex;
     justify-content:center;
     width:100%;
-    margin:0;
   }
   .el-card.inner-card{
     background: #F9F9F9;
@@ -200,9 +197,6 @@
   .el-avatar{
     display: flex;
     justify-content: center;
-  }
-  .el-card .el-card{
-    margin:0.2em 0;
   }
   @media (max-width:768px) {
     h1{
